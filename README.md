@@ -72,6 +72,25 @@ Add to `.vscode/mcp.json`:
 
 Settings → **Connectors** → **Add custom connector** → enter the URL `https://app.docuwriter.ai/mcp`.
 
+### Codex CLI
+
+Codex configures MCP servers in `~/.codex/config.toml`. Because this server uses interactive OAuth, connect through the [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) bridge, which opens the browser sign-in flow and speaks stdio to Codex:
+
+```toml
+[mcp_servers.docuwriter]
+command = "npx"
+args = ["-y", "mcp-remote", "https://app.docuwriter.ai/mcp"]
+```
+
+Recent Codex versions can also connect directly to a streamable HTTP server:
+
+```toml
+[mcp_servers.docuwriter]
+url = "https://app.docuwriter.ai/mcp"
+```
+
+If the direct form cannot complete the OAuth sign-in, use the `mcp-remote` form above.
+
 ### Cline
 
 See [`llms-install.md`](./llms-install.md) — Cline can configure this server automatically.
