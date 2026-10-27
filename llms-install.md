@@ -37,4 +37,4 @@ If the client uses a different config schema, add a remote/HTTP MCP server with:
 
 ## Verifying the connection
 
-Once configured, the server should expose 72 tools (documentation generation, full documentation trees, semantic search, Autopilot suggestions, spaces/documents, teams, and webhooks). If no tools appear, confirm the user completed the OAuth sign-in prompt and has an active DocuWriter.ai account.
+Once configured, the server should expose 73 tools (documentation generation, full documentation trees, semantic search, Autopilot suggestions, spaces/documents, teams, and webhooks). If no tools appear, confirm the user completed the OAuth sign-in prompt and has an active DocuWriter.ai account.

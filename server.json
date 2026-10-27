@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.docuwriter/docuwriter",
-  "description": "Generate, search, and manage codebase documentation on DocuWriter.ai. 72 tools incl. Autopilot.",
-  "version": "1.2.0",
+  "description": "Generate, search, and manage codebase documentation on DocuWriter.ai. 73 tools incl. Autopilot.",
+  "version": "1.2.1",
   "websiteUrl": "https://www.docuwriter.ai",
   "remotes": [
     {
