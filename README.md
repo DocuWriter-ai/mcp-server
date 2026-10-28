@@ -21,7 +21,7 @@ A [DocuWriter.ai account](https://www.docuwriter.ai) is required (free trial ava
 
 ## What you can do
 
-The server exposes 72 tools covering the DocuWriter.ai platform:
+The server exposes 73 tools covering the DocuWriter.ai platform:
 
 - **Generate documentation** from source code — code docs, README files, UML diagrams, Swagger/OpenAPI specs, code comments, tests, and language conversion.
 - **Full documentation trees** — generate and manage complete documentation trees for an imported repository.
@@ -38,6 +38,8 @@ The server exposes 72 tools covering the DocuWriter.ai platform:
 ```bash
 claude mcp add --transport http docuwriter https://app.docuwriter.ai/mcp
 ```
+
+Or install the [DocuWriter.ai plugin for Claude](https://github.com/DocuWriter-ai/claude-plugin), which bundles this server with DocuWriter skills and also works in Claude chat and Cowork. Use one method or the other, not both, so Claude doesn't load the server twice.
 
 ### Cursor
 
@@ -103,6 +105,7 @@ On first connect, your client opens a browser window to sign in to DocuWriter.ai
 
 - Website — https://www.docuwriter.ai
 - Documentation — https://docs.docuwriter.ai
+- Claude plugin — https://github.com/DocuWriter-ai/claude-plugin
 - Support — support@docuwriter.ai
 - Privacy — https://app.docuwriter.ai/privacy-policy
 
