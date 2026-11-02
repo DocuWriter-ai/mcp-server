@@ -1,13 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.docuwriter/docuwriter",
-  "description": "Generate, search, and manage codebase documentation on DocuWriter.ai. 73 tools incl. Autopilot.",
-  "version": "1.2.1",
+  "description": "Generate and review codebase docs. 77 tools; scoped, credit-approved repository reviews.",
+  "version": "1.3.0",
   "websiteUrl": "https://www.docuwriter.ai",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://app.docuwriter.ai/mcp"
     }
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/DocuWriter-ai/mcp-server",
+    "source": "github"
+  }
 }
